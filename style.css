@@ -8,7 +8,7 @@
 .calculator-body {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 500px;
     background-color: lightslategray;
     border: 1px solid black;
     padding: 10px;
@@ -36,19 +36,22 @@
 }
 
 .calculator-row-ctrl button {
-    width: 204px;
+    width: 225px;
     height: 80px;
     margin: 10px 1px 0px 0px;
     border-radius: 10px;
     font-size: 24px;
     font-weight: bolder;
     margin-top: 25px;
+    margin-bottom: 1px;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .calculator-row button {
-    width: 100px;
+    width: 105px;
     height: 80px;
-    margin: 10px 1px 0px 0px;
+    margin: 10px 5px 2px 2px;
     border-radius: 10px;
     font-size: 24px;
     font-weight: bolder;
